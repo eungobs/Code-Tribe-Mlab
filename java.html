@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Elizabeth Eunice Ndzukule</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* CSS styles here */
+        body {
+            background-color: #f8f9fa; /* Light gray background for the body */
+        }
+
+        header, section#contact, footer {
+            background-color: #fff; /* White background for header, contact section, and footer */
+            padding: 20px; /* padding to header, contact section, and footer */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa; /* Light gray background for the container */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <!-- Your logo/image here -->
+                <h1></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>
+                If you have any questions or inquiries, please feel free to reach out to me using the contact details
+                provided below.
+            </p>
+            <!-- Contact information -->
+            <div class="contact-info">
+                <h3>Contact Information:</h3>
+                <p><span class="emoji">✉️</span>Email: <a href="mailto:eungobs@gmail.com">eungobs@gmail.com</a></p>
+                <p><span class="emoji">🔗</span>LinkedIn: <a href="https://www.linkedin.com/in/eunice-ngobeni-ndzukule-a24316140" target="_blank">Profile</a></p>
+                <p><span class="emoji">📞</span>Phone: <a href="tel:0744766603">0744766603</a></p>
+                <p><span class="emoji">💬</span>WhatsApp: <a href="https://wa.me/0744766603" target="_blank">0744766603</a></p>
+            </div>
+            <!-- Formspree contact form -->
+            <form action="https://formspree.io/eungobs" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" name="surname" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <!-- footer content here -->
+    </footer>
+</body>
+</html>
